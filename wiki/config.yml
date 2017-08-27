@@ -55,7 +55,7 @@ public: $(WIKI_IS_PUBLIC)
 auth:
   defaultReadAccess: true
   local:
-    enabled: true
+    enabled: false
   google:
     enabled: false
     clientId: GOOGLE_CLIENT_ID

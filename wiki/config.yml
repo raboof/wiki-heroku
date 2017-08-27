@@ -65,9 +65,9 @@ auth:
     clientId: MS_APP_ID
     clientSecret: MS_APP_SECRET
   facebook:
-    enabled: false
-    clientId: FACEBOOK_APP_ID
-    clientSecret: FACEBOOK_APP_SECRET
+    enabled: true
+    clientId: $(WIKI_FACEBOOK_APP_ID)
+    clientSecret: $(WIKI_FACEBOOK_APP_SECRET)
   github:
     enabled: true
     clientId: $(WIKI_GITHUB_CLIENT_ID)

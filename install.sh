@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 echo "============================="
 echo "WIKI.JS - HEROKU INSTALLATION"
 echo "============================="
@@ -8,6 +10,7 @@ VERSION=1.0.6
 
 echo "-> Fetching latest build..."
 git clone https://github.com/raboof/wiki.js wiki
+cd wiki && git checkout separateSync && cd ..
 
 echo "-> Copying configuration..."
 cp config.yml wiki

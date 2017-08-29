@@ -1,1 +1,1 @@
-web: cd wiki && node server
+web: cd wiki && node server/sync.js && node server
